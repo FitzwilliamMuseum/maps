@@ -1,0 +1,23 @@
+{
+    "name": "fitzwilliammuseum/maps",
+    "description": "Maps for your Laravel application",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    "require": {
+      "php": "^7.4|^8.0"
+    },
+    "autoload": {
+    "psr-4": {
+        "Fitzwilliammuseum\\Maps\\": "src/"
+    }
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "Fitzwilliammuseum\\Maps\\MapsServiceProvider"
+          ]
+      }
+  }
+}
